@@ -1,0 +1,17 @@
+{
+  "workspace": {
+    "blocks": {
+      "languageVersion": 0,
+      "blocks": [
+        {
+          "type": "arduino_setup_loop",
+          "id": "_{1y2OHdM)d%fnr;k;PC",
+          "x": -143,
+          "y": -117,
+          "deletable": false
+        }
+      ]
+    }
+  },
+  "board": "none"
+}
