@@ -41,3 +41,25 @@ name = "apple"
 age = 18
 print(f"Hello, my name is {name}, I'm {age} years old.")  # f-string
 # 可以將變數或其他型態的資料放到f字串裡面的{}，這樣就可以在字串中顯示
+#type()可以查看變數的型態
+print(type(1))#<class 'int'>
+print(type(1.0))#<class 'float'>
+print(type('apple'))#<class 'str'>
+print(type(True))#<class 'bool'>
+#型態轉換
+print(int(1.0))#將浮點數轉為整數
+print(float(1))#將整數轉為浮點數
+print(str(1))#將整數轉為字串
+print(bool(1))#將整數轉為布林值
+print(int(1.234))#將浮點數轉為整數
+print(float('1.234'))#將字串轉為浮點數
+print(str(1.234))#將浮點數轉為字串
+print(bool(1.234))#將整數轉為布林值
+#print(int('hello'))#將字串轉為整數,會報錯
+#請玩家輸入圓的半徑，計算圓面積
+r=int(input('請輸入圓的半徑:'))
+print(f"圓的面積是: {3.14 * r ** 2}")
+#平均計算
+a=int(input('請輸入國語期中成績:'))
+b=int(input('請輸入國語期末成績:'))
+print(f"平均成績是: {(a + b) / 2}")
